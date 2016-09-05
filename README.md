@@ -6,7 +6,7 @@ Hackathon Starter
 
 **Live Demo**: http://hackathonstarter-sahat.rhcloud.com
 
-Jump to [What's new in 4.0.1?](#changelog)
+Jump to [What's new in 4.2.0?](#changelog)
 
 :bulb: Looking for ES5 code? [Click here](https://github.com/sahat/hackathon-starter/tree/es5).
 
@@ -135,7 +135,7 @@ all API examples to get you up and running even faster. But don't forget to upda
 them with *your credentials* when you are ready to deploy an app.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png" width="200">
-- Visit [Google Cloud Console](https://cloud.google.com/console/project)
+- Visit <a href="https://cloud.google.com/console/project" target="_blank">Google Cloud Console</a>
 - Click on the **Create Project** button
 - Enter *Project Name*, then click on **Create** button
 - Then click on *APIs & auth* in the sidebar and select *API* tab
@@ -160,7 +160,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://www.doit.ba/img/facebook.jpg" width="200">
-- Visit [Facebook Developers](https://developers.facebook.com/)
+- Visit <a href="https://developers.facebook.com/" target="_blank">Facebook Developers</a>
 - Click **My Apps**, then select **Add a New App* from the dropdown menu
 - Select **Website** platform and enter a new name for your app
 - Click on the **Create New Facebook App ID** button
@@ -178,7 +178,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png" width="200">
-- Go to [Account Settings](https://github.com/settings/profile)
+- Go to <a href="https://github.com/settings/profile" target="_blank">Account Settings</a>
 - Select **Applications** from the sidebar
 - Then inside **Developer applications** click on **Register new application**
 - Enter *Application Name* and *Homepage URL*
@@ -189,7 +189,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://g.twimg.com/ios_homescreen_icon.png" width="90">
-- Sign in at [https://apps.twitter.com/](https://apps.twitter.com/)
+- Sign in at <a href="https://apps.twitter.com/" target="_blank">https://apps.twitter.com</a>
 - Click **Create a new application**
 - Enter your application name, website and description
 - For **Callback URL**: http://127.0.0.1:3000/auth/twitter/callback
@@ -202,7 +202,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://www.danpontefract.com/wp-content/uploads/2014/02/logo-linkedin.png" width="200">
-- Sign in at [LinkedIn Developer Network](https://developer.linkedin.com/)
+- Sign in at <a href="https://developer.linkedin.com/" target="_blank">LinkedIn Developer Network</a>
 - From the account name dropdown menu select **API Keys**
  - *It may ask you to sign in once again*
 - Click **+ Add New Application** button
@@ -218,27 +218,15 @@ The same goes for other providers.
 
 <hr>
 
-<img src="https://s3.amazonaws.com/venmo/venmo_logo_blue.png" width="200">
-- Visit the **Account** section of your Venmo profile after logging in
-- Click on the **Developers** tab
-- Then click on the [new](https://venmo.com/account/app/new) link next to **Your Applications (0)**
-- Fill in the required fields: *App Name* and *What Will The App Be Used For?*
-- For **Web Redirect URL** enter: http://localhost:3000/auth/venmo/callback
-- Hit **Create** button
-- Back on the **Developers** tab click on **view** link next to **Your Applications (1) new**
-- Copy and paste **ID** and **Secret** keys into `.env` file
-
-<hr>
-
 <img src="https://stripe.com/img/about/logos/logos/black@2x.png" width="200">
-- [Sign up](https://stripe.com/) or log into your [dashboard](https://manage.stripe.com)
+- <a href="https://stripe.com/" target="_blank">Sign up</a> or log into your <a href="https://manage.stripe.com" target="_blank">dashboard</a>
 - Click on your profile and click on Account Settings
-- Then click on [API Keys](https://manage.stripe.com/account/apikeys)
+- Then click on **API Keys**
 - Copy the **Secret Key**. and add this into `.env` file
 <hr>
 
 <img src="https://pixabay.com/static/uploads/photo/2015/05/26/09/37/paypal-784404_960_720.png" width="200">
-- Visit [PayPal Developer](https://developer.paypal.com/)
+- Visit <a href="https://developer.paypal.com" target="_blank">PayPal Developer</a>
 - Log in to your PayPal account
 - Click **Applications > Create App** in the navigation bar
 - Enter *Application Name*, then click **Create app**
@@ -249,7 +237,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://33.media.tumblr.com/ffaf0075be879b3ab0b87f0b8bcc6814/tumblr_inline_n965bkOymr1qzxhga.png" width="200">
-- Go to [foursquare for Developers](https://developer.foursquare.com/)
+- Go to <a href="https://developer.foursquare.com" target="_blank">Foursquare for Developers</a>
 - Click on **My Apps** in the top menu
 - Click the **Create A New App** button
 - Enter *App Name*, *Welcome page url*,
@@ -260,17 +248,17 @@ The same goes for other providers.
 <hr>
 
 <img src="http://img4.wikia.nocookie.net/__cb20130520163346/logopedia/images/8/8d/Tumblr_logo_by_x_1337_x-d5ikwpp.png" width="200">
-- Go to http://www.tumblr.com/oauth/apps
+- Go to <a href="http://www.tumblr.com/oauth/apps" target="_blank">http://www.tumblr.com/oauth/apps</a>
 - Once signed in, click **+Register application**
 - Fill in all the details
-- For **Default Callback URL**: http://localhost:3000/auth/tumblr/callback
+- For **Default Callback URL**: `http://localhost:3000/auth/tumblr/callback`
 - Click **✔Register**
 - Copy and paste *OAuth consumer key* and *OAuth consumer secret* keys into `.env` file
 
 <hr>
 
 <img src="http://www.technologytell.com/gaming/files/2012/01/steam_logo.jpg" width="200">
-- Go to http://steamcommunity.com/dev/apikey
+- Go to <a href="http://steamcommunity.com/dev/apikey" target="_blank">http://steamcommunity.com/dev/apikey</a>
 - Sign in with your existing Steam account
 - Enter your *Domain Name*, then and click **Register**
 - Copy and paste *Key* into `.env` file
@@ -278,29 +266,21 @@ The same goes for other providers.
 <hr>
 
 <img src="https://sendgrid.com/brand/sg-logo-300.png" width="200">
-- Go to https://sendgrid.com/user/signup
+- Go to <a href="https://sendgrid.com/user/signup" target="_blank">https://sendgrid.com/user/signup</a>
 - Sign up and **confirm** your account via the *activation email*
 - Then enter your SendGrid *Username* and *Password* into `.env` file
 
 <hr>
 
 <img src="https://raw.github.com/mailgun/media/master/Mailgun_Primary.png" width="200">
-- Go to http://www.mailgun.com
+- Go to <a href="http://www.mailgun.com" target="_blank">http://www.mailgun.com</a>
 - Sign up and add your *Domain Name*
 - From the domain overview, copy and paste the default SMTP *Login* and *Password* into `.env` file
 
 <hr>
 
-<img src="https://www.bitgo.com/img/new_bitgo/logo_footer.png" width="200">
-- Go to https://test.bitgo.com/
-- Sign up for an account.
-- Once logged into the dashboard, go to the top right selector and click 'account settings'
-- Under the developers tab, create your access token and copy and paste it into `.env` file
-
-<hr>
-
 <img src="https://s3.amazonaws.com/ahoy-assets.twilio.com/global/images/wordmark.svg" width="200">
-- Go to https://www.twilio.com/try-twilio
+- Go to <a href="https://www.twilio.com/try-twilio" target="_blank">https://www.twilio.com/try-twilio</a>
 - Sign up for an account.
 - Once logged into the dashboard, expand the link 'show api credentials'
 - Copy your Account Sid and Auth Token
@@ -323,11 +303,11 @@ Project Structure
 | **public/css/themes**/default.scss | Some Bootstrap overrides to make it look prettier.           |
 | **views/account**/                 | Templates for *login, password reset, signup, profile*.      |
 | **views/api**/                     | Templates for API Examples.                                  |
-| **views/partials**/flash.jade      | Error, info and success flash notifications.                 |
-| **views/partials**/header.jade     | Navbar partial template.                                     |
-| **views/partials**/footer.jade     | Footer partial template.                                     |
-| **views**/layout.jade              | Base template.                                               |
-| **views**/home.jade                | Home page template.                                          |
+| **views/partials**/flash.pug       | Error, info and success flash notifications.                 |
+| **views/partials**/header.pug      | Navbar partial template.                                     |
+| **views/partials**/footer.pug      | Footer partial template.                                     |
+| **views**/layout.pug               | Base template.                                               |
+| **views**/home.pug                 | Home page template.                                          |
 | .travis.yml                        | [Travis CI](https://travis-ci.org/) integration.             |
 | .env.example                       | Your API keys, tokens, passwords and database URI.           |
 | app.js                             | The main application file.                                   |
@@ -346,7 +326,6 @@ List of Packages
 | ------------------------------- | --------------------------------------------------------------------- |
 | async                           | Utility library that provides asynchronous control flow.              |
 | bcrypt-nodejs                   | Library for hashing and salting user passwords.                       |
-| bitgo                           | Multi-sig Bitcoin wallet API.                                         |
 | cheerio                         | Scrape web pages using jQuery-style syntax.                           |
 | clockwork                       | Clockwork SMS API library.                                            |
 | connect-mongo                   | MongoDB session store for Express.                                    |
@@ -362,7 +341,7 @@ List of Packages
 | express-validator               | Easy form validation for Express.                                     |
 | fbgraph                         | Facebook Graph API library.                                           |
 | github-api                      | GitHub API library.                                                   |
-| jade                            | Template engine for Express.                                          |
+| pug (jade)                      | Template engine for Express.                                          |
 | lastfm                          | Last.fm API library.                                                  |
 | instagram-node                  | Instagram API library.                                                |
 | lob                             | Lob API library                                                       |
@@ -392,7 +371,6 @@ List of Packages
 | mocha                           | Test framework.                                                       |
 | chai                            | BDD/TDD assertion library.                                            |
 | supertest                       | HTTP assertion library.                                               |
-| yui                             | Used by the Yahoo API example.                                        |
 
 Useful Tools and Resources
 --------------------------
@@ -507,7 +485,7 @@ or [Compose](https://www.compose.io/), then create a free tier database.
 See [Deployment](#deployment) for more information on how to setup an account
 and a new database step-by-step with mLab.
 
-### Why Jade instead of Handlebars?
+### Why Pug (Jade) instead of Handlebars?
 When I first started this project I didn't have any experience with Handlebars. Since then I have worked on Ember.js apps and got myself familiar with the Handlebars syntax. While it is true Handlebars is easier, because it looks like good old HTML, I have no regrets picking Jade over Handlebars. First off, it's the default template engine in Express, so someone who has built Express apps in the past already knows it. Secondly, I find `extends` and `block` to be indispensable, which as far as I know, Handlebars does not have out of the box. And lastly, subjectively speaking, Jade looks much cleaner and shorter than Handlebars, or any non-HAML style for that matter.
 
 ### Why do you have all routes defined in app.js?
@@ -526,8 +504,8 @@ REST API server.
 ### I don't need a sticky footer, can I delete it?
 Absolutely. But unlike a regular footer there is a bit more work involved.
 First, delete `#wrap` and `#footer` ID selectors and `html, body { height: 100%; }`
-from **main.less**. Next, delete `#wrap` and `#footer` lines from **layout.jade**
-(By the way, if no element is specified before class or id, Jade assumes it is
+from **main.less**. Next, delete `#wrap` and `#footer` lines from **layout.pug**
+(By the way, if no element is specified before class or id, Pug assumes it is
 a `div` element). Don't forget to indent everything under `#wrap` to the left
 once, since this project uses two spaces per block indentation.
 
@@ -568,7 +546,7 @@ Move all JavaScript files from `html5up-escape-velocity/js` to `public/js`. Then
 
 **Note:** Do not forget to update all the CSS and JS paths accordingly.
 
-Create a new file `escape-velocity.jade` and paste the Jade markup in `views` folder.
+Create a new file `escape-velocity.pug` and paste the Pug markup in `views` folder.
 Whenever you see the code `res.render('account/login')` - that means it will search for `views/account/login.jade` file.
 
 Let's see how it looks. Create a new controller **escapeVelocity** inside `controllers/home.js`:
@@ -589,8 +567,8 @@ app.get('/escape-velocity', homeController.escapeVelocity);
 Restart the server (if you are not using **nodemon**), then you should see the new template at [http://localhost:3000/escape-velocity](http://localhost:3000/escape-velocity).
 
 I will stop right here, but if you would like to use this template as more than just a single page, take a look at how these Jade templates work: `layout.jade` - base template, `index.jade` - home page, `partials/header.jade` - Bootstrap navbar, `partials/footer.jade` - sticky footer. You will have to manually break it apart into smaller pieces. Figure out which part of the template you want to keep the same on all pages - that's your new `layout.jade`.
-Then, each page that changes, be it `index.jade`, `about.jade`, `contact.jade`
-will be embedded in your new `layout.jade` via `block content`. Use existing templates as a reference.
+Then, each page that changes, be it `index.pug`, `about.pug`, `contact.pug`
+will be embedded in your new `layout.pug` via `block content`. Use existing templates as a reference.
 
 This is a rather lengthy process, and templates you get from elsewhere,
 might have yet another grid system. That's why I chose *Bootstrap* for the Hackathon Starter.
@@ -660,7 +638,7 @@ are formatted. Previously, flash
 messages were scattered throughout each view that used flash messages
 (contact, login, signup, profile), but now, thankfully it is uses a *DRY* approach.
 
-The flash messages partial template is *included* in the `layout.jade`, along with footer and navigation.
+The flash messages partial template is *included* in the `layout.pug`, along with footer and navigation.
 ```jade
 body
   #wrap
@@ -778,7 +756,7 @@ exports.getBooks = (req, res) => {
 var bookController = require('./controllers/book');
 ```
 
-**Step 5.** Create `books.jade` template.
+**Step 5.** Create `books.pug` template.
 ```jade
 extends layout
 
@@ -889,7 +867,7 @@ server.listen(app.get('port'), () => {
 
 At this point we are done with the back-end.
 
-You now have a choice - to include your JavaScript code in Jade templates or have all your client-side
+You now have a choice - to include your JavaScript code in Pug templates or have all your client-side
 JavaScript in a separate file - in `main.js`. I will admit, when I first started out with Node.js and JavaScript in general,
 I placed all JavaScript code inside templates because I have access to template variables passed in from Express
 right then and there. It's the easiest thing you can do, but also the least efficient and harder to maintain. Since then I
@@ -901,7 +879,7 @@ want to [*"get shit done"*](https://www.startupvitamins.com/media/products/13/aa
 Well, either way, use whichever approach makes more sense to you. At the end of the day,
 it's **what** you build that matters, not **how** you build it.
 
-If you want to stick all your JavaScript inside templates, then in `layout.jade` -
+If you want to stick all your JavaScript inside templates, then in `layout.pug` -
 your main template file, add this to `head` block.
 
 ```jade
@@ -1094,8 +1072,46 @@ Add this to `package.json`, after *name* and *version*. This is necessary becaus
 A longer version of these instructions with screenshots is available at [http://ibm.biz/hackstart2](http://ibm.biz/hackstart2).
 Also, be sure to check out the [Jump-start your hackathon efforts with DevOps Services and Bluemix](https://www.youtube.com/watch?v=twvyqRnutss) video.
 
+---
+
+<img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=64" width="64" align="left">
+
+# Google Cloud Platform
+
+- [Download and install Node.js](https://nodejs.org/)
+- [Select or create](https://console.cloud.google.com/project) a Google Cloud Platform Console project
+- [Enable billing](https://support.google.com/cloud/answer/6293499#enable-billing) for your project (there's a $300 free trial)
+- Install and initialize the [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts)
+- Create an `app.yaml` file at the root of your `hackathon-starter` folder with the following contents:
+
+    ```yaml
+    runtime: nodejs
+    vm: true
+    manual_scaling:
+      instances: 1
+    ```
+- Make sure you've set `MONGODB_URI` or `MONGOLAB_URI` in `.env.example`
+- Run the following command to deploy the `hackathon-starter` app:
+
+    ```bash
+    gcloud app deploy
+    ```
+- [Monitor your deployed app](https://console.cloud.google.com/appengine) in the Cloud Console
+- [View the logs](https://console.cloud.google.com/logs/viewer) for your app in the Cloud Console
+
 Changelog
 ---------
+
+### 4.2.0 (August 21, 2016)
+- Converted templates from jade to pug (See [Rename from "Jade"](https://github.com/pugjs/pug#rename-from-jade))
+
+### 4.1.1 (August 20, 2016)
+- Updated dependencies
+
+### 4.1.0 (July 23, 2016)
+- Improved redirect logic after login [#435](https://github.com/sahat/hackathon-starter/pull/435)
+- Removed Venmo API (see [Venmo Halts New Developer Access To Its API](https://techcrunch.com/2016/02/26/how-not-to-run-a-platform/))
+- Removed BitGo API due to issues with `secp256k1` dependency on Windows
 
 ### 4.0.1 (May 17, 2016)
 - Renamed `MONGODB` to `MONGODB_URI` environment variable
